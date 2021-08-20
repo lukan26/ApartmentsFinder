@@ -1,0 +1,20 @@
+{
+  "root_endpoint": "https://pk.api.onliner.by",
+  "price_min": 30000,
+  "price_max": 46000,
+  "currency": "usd",
+  "one_room": true,
+  "two_room": false,
+  "three_room": true,
+  "area_min": 0,
+  "area_max": 0,
+  "resale": false,
+  "building_year_min": 1900,
+  "building_year_max": 2021,
+  "walling": "",
+  "outermost_floor": false,
+  "lb_lat": 53.82274641107382,
+  "rt_lat": 53.97789721409897,
+  "lb_long": 27.28900909423828,
+  "rt_long": 27.83248901367188
+}

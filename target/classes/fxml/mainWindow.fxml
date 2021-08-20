@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="413.0" style="-fx-background-color: #9ba2a6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TabPane fx:id="tabPane" prefHeight="581.0" prefWidth="413.0" style="-fx-background-color: #fafafa;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="sellTab" text="Продажа квартир">
+            <content>
+              <AnchorPane fx:id="sellAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="sellPane" layoutY="-3.0" prefHeight="555.0" prefWidth="413.0" style="-fx-background-color: #fafafa;">
+                           <children>
+                              <Label fx:id="priceLabel" layoutX="186.0" layoutY="14.0" text="Цена">
+                                 <font>
+                                    <Font name="Impact" size="19.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="minSellPriceTextField" layoutX="42.0" layoutY="45.0" promptText="\$" />
+                              <TextField fx:id="maxSellPriceTextfield" layoutX="234.0" layoutY="45.0" promptText="\$" />
+                              <Label fx:id="priceFromLabel" layoutX="21.0" layoutY="49.0" text="от" />
+                              <Label fx:id="priceToLabel" layoutX="207.0" layoutY="49.0" text="до" />
+                              <ToggleButton fx:id="oneRoomSellFlatButton" layoutX="83.0" layoutY="87.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="1">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="twoRoomSellFlatButton" layoutX="146.0" layoutY="87.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="2">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="threeRoomSellFlatButton" layoutX="209.0" layoutY="87.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="3">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="fourPlusRoomSellFlatButton" layoutX="272.0" layoutY="87.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="4+">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <Label fx:id="areaLabel" layoutX="167.0" layoutY="152.0" text="Площадь">
+                                 <font>
+                                    <Font name="Impact" size="19.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="minAreaTextField" layoutX="43.0" layoutY="187.0" promptText="м^2" />
+                              <TextField fx:id="maxArea" layoutX="235.0" layoutY="187.0" promptText="м^2" />
+                              <Label fx:id="areaFromLabel" layoutX="22.0" layoutY="191.0" text="от" />
+                              <Label fx:id="areaToLabel" layoutX="208.0" layoutY="191.0" text="до" />
+                              <ToggleButton fx:id="resaleButton" layoutX="85.0" layoutY="231.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="126.0" text="Вторичка">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="newFlatButton" layoutX="211.0" layoutY="231.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="126.0" text="Новостройка">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <Label fx:id="buildingYearLabel" layoutX="146.0" layoutY="302.0" text="Год постройки">
+                                 <font>
+                                    <Font name="Impact" size="19.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="minBuildingYearTextField" layoutX="45.0" layoutY="337.0" promptText="1900" />
+                              <TextField fx:id="maxBuildingYearTextField" layoutX="237.0" layoutY="337.0" promptText="2021" />
+                              <Label fx:id="buildingYearFromLabel" layoutX="24.0" layoutY="341.0" text="от" />
+                              <Label fx:id="buildingYearToLabel" layoutX="210.0" layoutY="341.0" text="до" />
+                              <Button fx:id="searchSellFlatButton" layoutX="148.0" layoutY="481.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="116.0" text="Поиск">
+                                 <font>
+                                    <Font name="Impact" size="27.0" />
+                                 </font>
+                              </Button>
+                              <MenuButton fx:id="panelWall" layoutX="127.0" layoutY="382.0" mnemonicParsing="false" text="Материал стен">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                                 <items>
+                                    <RadioMenuItem fx:id="panel" mnemonicParsing="false" text="Панель" />
+                                    <RadioMenuItem fx:id="brick" mnemonicParsing="false" text="Кирпич" />
+                                    <RadioMenuItem fx:id="monolit" mnemonicParsing="false" text="Монолит" />
+                                    <RadioMenuItem fx:id="block" mnemonicParsing="false" text="Блок" />
+                                 </items>
+                              </MenuButton>
+                              <CheckBox fx:id="outermostFloor" layoutX="67.0" layoutY="437.0" mnemonicParsing="false" text="Не первый и не последний этаж">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Аренда квартир">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane layoutY="-3.0" prefHeight="556.0" prefWidth="413.0" style="-fx-background-color: #fafafa;">
+                           <children>
+                              <Button fx:id="searchRentFlatButton" layoutX="149.0" layoutY="411.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="116.0" text="Поиск">
+                                 <font>
+                                    <Font name="Impact" size="27.0" />
+                                 </font>
+                              </Button>
+                              <Label fx:id="rentFromLabel" layoutX="51.0" layoutY="198.0" text="от" />
+                              <Label fx:id="rentPriceLabel" layoutX="181.0" layoutY="164.0" text="Цена">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="maxRentPriceTextField" layoutX="234.0" layoutY="194.0" prefHeight="25.0" prefWidth="128.0" promptText="\$" />
+                              <TextField fx:id="minRentPriceTextField" layoutX="73.0" layoutY="194.0" prefHeight="25.0" prefWidth="128.0" promptText="\$" />
+                              <Label fx:id="rentToLabel" layoutX="213.0" layoutY="198.0" text="до" />
+                              <ToggleButton fx:id="oneRentRoomButton" layoutX="73.0" layoutY="100.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="1">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="twoRentRoomButton" layoutX="136.0" layoutY="100.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="2">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="threeRentRoomButton" layoutX="199.0" layoutY="100.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="3">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="fourPlusRentRoomButton" layoutX="262.0" layoutY="100.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="63.0" text="4+">
+                                 <font>
+                                    <Font name="Impact" size="24.0" />
+                                 </font>
+                              </ToggleButton>
+                              <ToggleButton fx:id="flatButton" layoutX="73.0" layoutY="46.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="126.0" text="Квартира">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="searchType" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton fx:id="roomButton" layoutX="199.0" layoutY="46.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="126.0" selected="true" text="Комната" toggleGroup="$searchType">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </ToggleButton>
+                              <CheckBox fx:id="ownerOnly" layoutX="110.0" layoutY="232.0" mnemonicParsing="false" text="Только собственник">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                              </CheckBox>
+                              <MenuButton fx:id="metro" layoutX="158.0" layoutY="281.0" mnemonicParsing="false" text="Метро">
+                                 <font>
+                                    <Font name="Impact" size="18.0" />
+                                 </font>
+                                 <items>
+                                    <RadioMenuItem fx:id="nearbySubway" mnemonicParsing="false" text="Возле метро" />
+                                    <RadioMenuItem fx:id="blueLine" mnemonicParsing="false" text="Московская линия" />
+                                    <RadioMenuItem fx:id="redLine" mnemonicParsing="false" text="Автозаводская линия" />
+                                 </items>
+                              </MenuButton>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

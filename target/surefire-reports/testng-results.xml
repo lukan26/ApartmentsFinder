@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="42" passed="42">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="85" started-at="2021-08-20T12:53:00Z" finished-at="2021-08-20T12:53:01Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="85" started-at="2021-08-20T12:53:00Z" finished-at="2021-08-20T12:53:01Z">
+      <class name="onlinerBy.api.SellInputFieldsTest">
+        <test-method status="PASS" signature="maxAreaTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="maxAreaTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Max area of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxAreaTest -->
+        <test-method status="PASS" signature="maxPriceTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="maxPriceTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Max price of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxPriceTest -->
+        <test-method status="PASS" signature="minAreaTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="minAreaTest" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="Min area of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minAreaTest -->
+        <test-method status="PASS" signature="maxBuildingTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="maxBuildingTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Max building year of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxBuildingTest -->
+        <test-method status="PASS" signature="minMaxAreaTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="minMaxAreaTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Min and max area of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxAreaTest -->
+        <test-method status="PASS" signature="minBuildingTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="minBuildingTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Min building year of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minBuildingTest -->
+        <test-method status="PASS" signature="minMaxBuildingTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="minMaxBuildingTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Min and max building year of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxBuildingTest -->
+        <test-method status="PASS" signature="minMaxPriceTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="minMaxPriceTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Min and max price of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxPriceTest -->
+        <test-method status="PASS" signature="minPriceTest()[pri:0, instance:onlinerBy.api.SellInputFieldsTest@2c9f9fb0]" name="minPriceTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Min price of selling flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minPriceTest -->
+      </class> <!-- onlinerBy.api.SellInputFieldsTest -->
+      <class name="onlinerBy.api.RentRoomButtonsTest">
+        <test-method status="PASS" signature="fourPlusRoomsFlatTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="fourPlusRoomsFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="4/4+ room flats uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourPlusRoomsFlatTest -->
+        <test-method status="PASS" signature="oneRoomFlatTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="oneRoomFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="1 room flats uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneRoomFlatTest -->
+        <test-method status="PASS" signature="onlyRoomTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="onlyRoomTest" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="Only room in flat uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyRoomTest -->
+        <test-method status="PASS" signature="oneThreeRoomsFlatsTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="oneThreeRoomsFlatsTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="1 and 3 room flats uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneThreeRoomsFlatsTest -->
+        <test-method status="PASS" signature="twoRoomsFlatTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="twoRoomsFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="2 room flats uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoRoomsFlatTest -->
+        <test-method status="PASS" signature="threeRoomsFlatTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="threeRoomsFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="3 room flats uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeRoomsFlatTest -->
+        <test-method status="PASS" signature="twoFourPlusRoomsFlatsTest()[pri:0, instance:onlinerBy.api.RentRoomButtonsTest@52af6cff]" name="twoFourPlusRoomsFlatsTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="2 and 4 room flats uri for rent" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoFourPlusRoomsFlatsTest -->
+      </class> <!-- onlinerBy.api.RentRoomButtonsTest -->
+      <class name="onlinerBy.api.SellRoomButtonsTest">
+        <test-method status="PASS" signature="oneRoomFlatTest()[pri:0, instance:onlinerBy.api.SellRoomButtonsTest@9f70c54]" name="oneRoomFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="1 room flats uri for sell" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneRoomFlatTest -->
+        <test-method status="PASS" signature="oneThreeRoomsFlatsTest()[pri:0, instance:onlinerBy.api.SellRoomButtonsTest@9f70c54]" name="oneThreeRoomsFlatsTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="1 and 3 room flats uri for sell" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneThreeRoomsFlatsTest -->
+        <test-method status="PASS" signature="fourPlusRoomsFlatTest()[pri:0, instance:onlinerBy.api.SellRoomButtonsTest@9f70c54]" name="fourPlusRoomsFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="4/4+ room flats uri for sell" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourPlusRoomsFlatTest -->
+        <test-method status="PASS" signature="twoRoomsFlatTest()[pri:0, instance:onlinerBy.api.SellRoomButtonsTest@9f70c54]" name="twoRoomsFlatTest" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="2 room flats uri for sell" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoRoomsFlatTest -->
+        <test-method status="PASS" signature="twoFourPlusRoomsFlatsTest()[pri:0, instance:onlinerBy.api.SellRoomButtonsTest@9f70c54]" name="twoFourPlusRoomsFlatsTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="2 and 4 room flats uri for sell" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoFourPlusRoomsFlatsTest -->
+        <test-method status="PASS" signature="threeRoomsFlatTest()[pri:0, instance:onlinerBy.api.SellRoomButtonsTest@9f70c54]" name="threeRoomsFlatTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="3 room flats uri for sell" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeRoomsFlatTest -->
+      </class> <!-- onlinerBy.api.SellRoomButtonsTest -->
+      <class name="onlinerBy.api.RentlBusinessCasesTest">
+        <test-method status="PASS" signature="businessCase1Test()[pri:0, instance:onlinerBy.api.RentlBusinessCasesTest@3551a94]" name="businessCase1Test" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="1 room, 4+ rooms, max price, only owner, both metro lines parameters for rent flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessCase1Test -->
+        <test-method status="PASS" signature="businessCase2Test()[pri:0, instance:onlinerBy.api.RentlBusinessCasesTest@3551a94]" name="businessCase2Test" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="2 rooms, 3 rooms, min price, red line metro parameters for rent flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessCase2Test -->
+      </class> <!-- onlinerBy.api.RentlBusinessCasesTest -->
+      <class name="onlinerBy.api.RentParamsTest">
+        <test-method status="PASS" signature="bothLinesOfMetroTest()[pri:0, instance:onlinerBy.api.RentParamsTest@531be3c5]" name="bothLinesOfMetroTest" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="Both lines of metro for rent flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothLinesOfMetroTest -->
+        <test-method status="PASS" signature="blueLineOfMetroTest()[pri:0, instance:onlinerBy.api.RentParamsTest@531be3c5]" name="blueLineOfMetroTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Blue line of metro for rent flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blueLineOfMetroTest -->
+        <test-method status="PASS" signature="onlyOwnerTest()[pri:0, instance:onlinerBy.api.RentParamsTest@531be3c5]" name="onlyOwnerTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Only owner checkbox of rent flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyOwnerTest -->
+        <test-method status="PASS" signature="redLineOfMetroTest()[pri:0, instance:onlinerBy.api.RentParamsTest@531be3c5]" name="redLineOfMetroTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Red line of metro for rent flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redLineOfMetroTest -->
+      </class> <!-- onlinerBy.api.RentParamsTest -->
+      <class name="onlinerBy.api.RentInputFieldsTest">
+        <test-method status="PASS" signature="maxPriceTest()[pri:0, instance:onlinerBy.api.RentInputFieldsTest@5a61f5df]" name="maxPriceTest" duration-ms="30" started-at="2021-08-20T12:53:01Z" description="Max price of renting flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxPriceTest -->
+        <test-method status="PASS" signature="minPriceTest()[pri:0, instance:onlinerBy.api.RentInputFieldsTest@5a61f5df]" name="minPriceTest" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="Min price of renting flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minPriceTest -->
+        <test-method status="PASS" signature="minMaxPriceTest()[pri:0, instance:onlinerBy.api.RentInputFieldsTest@5a61f5df]" name="minMaxPriceTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Min and max price of renting flats" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minMaxPriceTest -->
+      </class> <!-- onlinerBy.api.RentInputFieldsTest -->
+      <class name="onlinerBy.api.SellBusinessCasesTest">
+        <test-method status="PASS" signature="businessCase1Test()[pri:0, instance:onlinerBy.api.SellBusinessCasesTest@735b478]" name="businessCase1Test" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="Min price, 1 room, 4+ rooms, max area, resale, min building year, panel and brick wall parameters for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessCase1Test -->
+        <test-method status="PASS" signature="businessCase2Test()[pri:0, instance:onlinerBy.api.SellBusinessCasesTest@735b478]" name="businessCase2Test" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Max price, 2 rooms, 3 rooms, min area, resale, max building year, block and monolith wall parameters for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessCase2Test -->
+      </class> <!-- onlinerBy.api.SellBusinessCasesTest -->
+      <class name="onlinerBy.api.SellParamsTest">
+        <test-method status="PASS" signature="blockWallTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="blockWallTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Block wall parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockWallTest -->
+        <test-method status="PASS" signature="brickBlockWallTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="brickBlockWallTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Brick and block walls parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brickBlockWallTest -->
+        <test-method status="PASS" signature="brickWallTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="brickWallTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Brick wall parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brickWallTest -->
+        <test-method status="PASS" signature="monolithWallTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="monolithWallTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Monolith wall parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monolithWallTest -->
+        <test-method status="PASS" signature="newFlatTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="newFlatTest" duration-ms="2" started-at="2021-08-20T12:53:01Z" description="New flat parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newFlatTest -->
+        <test-method status="PASS" signature="outermostFloorTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="outermostFloorTest" duration-ms="1" started-at="2021-08-20T12:53:01Z" description="OutermostFloor parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outermostFloorTest -->
+        <test-method status="PASS" signature="panelMonolithWallTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="panelMonolithWallTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Panel and momolith walls parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- panelMonolithWallTest -->
+        <test-method status="PASS" signature="panelWallTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="panelWallTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Panel wall parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- panelWallTest -->
+        <test-method status="PASS" signature="resaleTest()[pri:0, instance:onlinerBy.api.SellParamsTest@2096442d]" name="resaleTest" duration-ms="0" started-at="2021-08-20T12:53:01Z" description="Resale parameter for sell flats uri" finished-at="2021-08-20T12:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resaleTest -->
+      </class> <!-- onlinerBy.api.SellParamsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

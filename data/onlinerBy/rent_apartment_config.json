@@ -1,0 +1,13 @@
+{
+  "root_endpoint": "https://ak.api.onliner.by",
+  "rent_type": "1,3",
+  "price_min": 100,
+  "price_max": 700,
+  "currency": "usd",
+  "only_owner": true,
+  "metro": "",
+  "lb_lat": 53.82274641107382,
+  "rt_lat": 53.97789721409897,
+  "lb_long": 27.28900909423828,
+  "rt_long": 27.83248901367188
+}

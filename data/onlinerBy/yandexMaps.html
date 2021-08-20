@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=17ec5e9a-963a-4a79-914c-2a8dc713c981&lang=ru_RU" type="text/javascript"/></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [53.902496, 27.561481],
+                zoom: 11
+            }, {
+            searchControlProvider: 'yandex#search'
+        });
+
+        var myPlacemark0 = new ymaps.Placemark([53.872356, 27.648573], {
+        balloonContent: '<img src="https://content.onliner.by/apartment_for_sale/2587542/600x400/3668de9d4c72bf15b49bd9ac78d861f5.jpeg" />',
+        balloonContentHeader: 'Однажды',
+        balloonContentFooter: 'Мы пошли в гору',
+       balloonContentFooter: '35.1/18.4/7.3 м2 Этаж 6/9 Минск, Партизанский проспект, 147',
+        }, {
+        preset: "islands#redStretchyIcon",
+        hideIconOnBalloonOpen: false
+        });
+
+        var myPlacemark1 = new ymaps.Placemark([53.90366, 27.484442], {
+        balloonContent: '<img src="https://catalog.pakodan.by/assets/cache_image/assets/userfiles/priv/modresource/7820/de5ff3372946d6d1d615850611ee12077b3f0015.4dkz_1800x0_846.jpg" />',
+        balloonContentHeader: 'Однажды',
+        balloonContentFooter: 'Мы пошли в гору',
+        hintContent: 'Зимние происшествия'
+        }, {
+        preset: "islands#redStretchyIcon",
+        hideIconOnBalloonOpen: false
+        });
+
+        myMap.geoObjects.add(myPlacemark0);
+        myMap.geoObjects.add(myPlacemark1);
+
+        }
+    </script>
+</head>
+<body>
+    <div id="map" style="width: 1200px; height: 800px"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "Content-Length": "490",
+    "Content-Type": "application\/json"
+  },
+  "status_code": 200,
+  "body": {
+    "payer": {
+      "account": {
+        "account_number": "40817810********0021"
+      }
+    },
+    "beneficiary": {
+      "account": {
+        "account_number": "88888"
+      },
+      "transit_member_id": "PRJ511_SPECTRUM"
+    },
+    "transaction_amount": {
+      "amount": "1671.00",
+      "currency": "RUR"
+    },
+    "transfer_ref": "SP.130170115-989424",
+    "transaction_code": "461152",
+    "rate_type": "Выдача наличных денежных средств на основании договора банковского счета. Владелец счета: МАЙ ДКО ТЕСТОВИЧ"
+  }
+}
