@@ -23,6 +23,7 @@ src/main/java/epam/auto/iso8583/messenger/ServMain.java
 /pom.xml
 **/*.csv
 **/*.log
+*.html
 
 
 data/H2H/test.json
